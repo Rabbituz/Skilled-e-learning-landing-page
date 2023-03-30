@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+header nav {
+    width: 343px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .logo {
+    font-size: calc(28rem / 16);
+    font-weight: 800;
+}
+header nav a {
+    width: 140px;
+    height: 48px;
+    font-size: calc(16rem / 16);
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border-radius: 28px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+header nav a:hover {
+    background: #666CA3;
+}
+main .section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .section-one .container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 343px;
+    height: 284px;
+    margin-top: 20px;
+}
+main .section-one div h1 {
+    width: 343px;
+    height: 101px;
+    font-size: calc(40rem / 16);
+    font-weight: 800;
+    line-height: 50.4px;
+}
+main .section-one div p {
+    width: 343px;
+    height: 78px;
+    font-size: calc(16rem / 16);
+    font-weight: 500;
+    color: #83869A;
+    line-height: 26px;
+}
+main .section-one div a {
+    width: 167px;
+    height: 56px;
+    font-size: calc(16rem / 16);
+    font-weight: 700;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .section-one .container-text a:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+main .section-one .container-img {
+    margin-top: 20px;
+}
+main .section-one .container-img picture {
+    width: 327px;
+    height: 301px;
+}
+main .section-one .container-img picture img {
+    width:  100%;
+    height: 100%;
+}
+
+main .section-two {
+    height: 1695px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    display: flex;
+    justify-content: center;
+
+}
+main .section-two .containers {
+    width: 343px;
+    height: 1615px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main .section-two .containers .container-title {
+    height: 120px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .section-two .containers .container .container-text {
+    width: 286px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+main .section-two .containers .container-title h2 {
+    font-size: calc(24rem / 16);
+    color: white;
+    width: 286px;
+    height: 64px;
+    line-height: 32px;
+    font-weight: 800;
+}
+main .section-two .containers .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 283px;
+}
+main .section-two .containers .container picture {
+    width: 286px;
+    position: absolute;
+    z-index: 1;
+}
+main .section-two .containers .container .container-white {
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+    height: 259px;
+    width: 353px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    padding-top: 30px;
+    
+}
+main .section-two .containers .container-white .container-text a:hover {
+    color:#FFA7C3;
+}
+main .section-two .containers .container h3 {
+    font-size: calc(20rem / 16);
+    font-weight: 800;
+    line-height: 25.2px;
+}
+main .section-two .containers .container p {
+    font-size: calc(16rem / 16);
+    font-weight: 500;
+    line-height: 26px;
+    color: #83869A;
+}
+main .section-two .containers .container a {
+    text-decoration: none;
+    font-size: calc(18rem / 16);
+    font-weight: 700;
+    line-height: 28px;
+    color: #F74780
+}
+
+footer {
+    height: 120px;
+    background-color: #13183F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .container-footer {
+    width: 343px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .container-footer .logo {
+    font-size: calc(28rem / 16);
+    font-weight: 800;
+    color: white;
+}
+footer .container-footer a {
+    width: 140px;
+    height: 48px;
+    font-size: calc(16rem / 16);
+    font-weight: 700;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .container-footer a:hover {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%), linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        padding-top: 24px;
+    }
+    header nav {
+        width: 689px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .section-one {
+        flex-direction: row;
+        width: 689px;
+        height: 470px;
+        position: relative;
+    }
+    main .section-one .container-img {
+        position: absolute;
+        width: 640.71px;
+        height: 640px;
+        right: -300px;
+        top: -150px;
+    }
+    main .section-one .container-text {
+        width: 398px;
+        height: 284px;
+    }
+    main .section-one .container-text p {
+        width: 398px;
+    }
+    main .section-one .container-text button:hover {
+        background-color: yellow;
+    }
+    main .section-one .container-img img {
+        width: 640.71px;
+        height: 640px;
+    }
+    
+    main .section-two {
+        width: 100%;
+        height: 999px;
+        margin-top: 50px;
+    }
+    main .section-two .containers {
+        width: 689px;
+        height: 913px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    main .section-two .containers .container-title {
+        width: 339px;
+        height: 283px;
+        position: relative;
+    }
+    main .section-two .containers .container-title h2 {
+        position: relative;
+        top: -38px;
+    }
+    main .section-two .containers .container {
+        width: 339px;
+        height: 283px;
+    }
+    main .section-two .containers .container .container-white {
+        width: 340px;
+        height: 259px;
+    }
+
+    footer .container-footer {
+        width: 689px;
+    }
+}
+
+@media screen and (min-width: 1110px) {
+    header {
+        padding-top: 29px;
+    }
+    header nav {
+        width: 1110px;
+    }
+    main .section-one {
+        width: 1110px;
+        height: 600px;
+        margin-bottom: 80px;
+    }
+    main .section-one .container-text {
+        width: 457px;
+        height: 359px;
+    }
+    main .section-one .container-text h1 {
+        font-size: calc(56rem / 16);
+        line-height: 70.56px;
+        width: 457px;
+        height: 143px;
+    }
+    main .section-one .container-text p {
+        font-size: calc(18rem / 16);
+        line-height: 28px;
+    }
+    main .section-one .container-text button {
+        height: 63px;
+    }
+    main .section-one .container-img {
+        width: 991.63px;
+        height: 936.92px;
+        right: -480px;
+        top: -250px;
+    }
+    main .section-one .container-img img {
+        width: 991.63px;
+        height: 936.92px;
+    }
+
+    main .section-two {
+        width: 100%;
+        height: 888px;
+    }
+    main .section-two .containers {
+        width: 1110px;
+        height: 748px;
+    }
+    main .section-two .containers .container-title {
+        width: 350px;
+        height: 322px;
+    }
+    main .section-two .containers .container-title h2 {
+        font-size: calc(32rem / 16);
+        line-height: 40px;
+        width: 286px;
+        height: 120px;
+        top: -20px;
+    }
+    main .section-two .containers .container {
+        width: 350px;
+        height: 346px;
+    }
+    main .section-two .containers .container .container-white {
+        width: 350px;
+        height: 322px;
+    }
+    main .section-two .containers .container-white .container-text {
+        width: 286px;
+        height: 218px;
+    }
+    main .section-two .containers .container-white .container-text h3 {
+        font-size: calc(24rem / 16);
+    }
+    main .section-two .containers .container-white .container-text p {
+        font-size: calc(18rem / 16);
+        line-height: 28px;
+    }
+    main .section-two .containers .container-white .container-text {
+        justify-content: space-between;
+    }
+    
+    footer  .container-footer{
+        width: 1110px;
+        height: 56px;
+    }
+    footer .container-footer a {
+        width: 167px;
+        height: 56px;
+    }
+    footer .container-footer .logo {
+        font-size: calc(36rem / 16);
+    }
+}
